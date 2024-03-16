@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Задача №1</title>
+  </head>
+  <body>
+    <h1>
+      Задача 1. Користувач вводить кількість елементів. Створити масив, що
+      складається з вказаної кількості елементів заповнених нулями.
+    </h1>
+    <script>
+      let userNum = parseInt(prompt("Введіть кількість елементів"));
+      let arrWithZero = new Array(userNum).fill(0);
+      document.write(`<h2>${arrWithZero}<h2>`);
+    </script>
+  </body>
+</html>

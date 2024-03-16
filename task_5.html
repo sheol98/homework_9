@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Задача №5</title>
+  </head>
+  <body>
+    <h1>Задача 5.Дано масив елементів. Знайти добуток додатних елементів</h1>
+    <script>
+      let arrElement = [-160, 79, -52, 18, 8];
+      let multPositiveElement = 1;
+      for (const element of arrElement) {
+        if (element > 0) multPositiveElement *= element;
+      }
+      document.write(
+        `<h2>Добуток додатних елементів - ${multPositiveElement}<h2>`
+      );
+    </script>
+  </body>
+</html>

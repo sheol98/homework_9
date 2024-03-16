@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Задача №8</title>
+  </head>
+  <body>
+    <h1>
+      Задача 8. Дано масив номерів авто. Сформувати новий масив тих, які
+      починаються на «А»
+
+      <!-- <a> <img src="”шлях”" /> </a> -->
+    </h1>
+
+    <script>
+      const autosNumbersArr = [
+        "АВ011234",
+        "АВ145678",
+        "АВ039012",
+        "БЕ223456",
+        "БЕ117890",
+        "БЕ072345",
+        "БЕ256789",
+        "БЕ090123",
+        "БЕ174567",
+        "АВ058901",
+      ];
+      const newNumberWithFirstA = autosNumbersArr.filter((el) => el[0] === "А");
+      document.write(`<h2>${newNumberWithFirstA}</h2>`);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+span {
+  border: 2px solid red;
+  margin-right: 15px;
+  font-size: 24px;
+}
+
+button {
+  font-size: 24px;
+  background-color: green;
+  color: white;
+  margin-right: 15px;
+  padding: 10px;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+table {
+  display: inline-block;
+  margin-right: 20px;
+  border: 2px solid green;
+}
+td {
+  border: 2px solid red;
+}
+li {
+  font-size: 24px;
+}
+p {
+  font-size: 20px;
+}

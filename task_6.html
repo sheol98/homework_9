@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Задача №6</title>
+  </head>
+  <body>
+    <h1>
+      6.Дано масив елементів. Усі елементи, які більші за перший елемент
+      помножити на 2
+    </h1>
+    <script>
+      let arrNum = [99, 79, 52, 18, 8, 137, 127, 25, 160, 78];
+      arrNum.forEach((el, ind, arr) => {
+        if (el > arr[0]) arr[ind] *= 2;
+      });
+      document.write(`<h2>${arrNum}<h2>`);
+    </script>
+  </body>
+</html>
